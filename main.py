@@ -125,6 +125,7 @@ controller.configure(
         9: (
             (18, {
                 "D": lambda pin: controller.chasing(pin, (0, 0, 200), (200, 0, 200), 10, 0.01, 20, 50),
+                "X": lambda pin: controller.chasing(pin, (0, 0, 200), (200, 0, 200), 10, 0.01, 20, 50),
                 "E": lambda pin: controller.color_fade(pin, ((255, 0, 0), (0, 255, 0), (0, 0, 255)), 128, 0.01),
                 "A": lambda pin: controller.static_color(pin, (255, 165, 0), 0, False, ""),
                 "S": lambda pin: controller.static_color(pin, (0, 255, 0), 0, False, ""),
@@ -134,6 +135,7 @@ controller.configure(
         10: (
             (18, {
                 "D": lambda pin: controller.chasing(pin, (0, 0, 200), (200, 0, 200), 10, 0.01, 20, 50),
+                "X": lambda pin: controller.chasing(pin, (0, 0, 200), (200, 0, 200), 10, 0.01, 20, 50),
                 "E": lambda pin: controller.color_fade(pin, ((255, 0, 0), (0, 255, 0), (0, 0, 255)), 128, 0.01),
                 "A": lambda pin: controller.static_color(pin, (255, 165, 0), 0, False, ""),
                 "S": lambda pin: controller.static_color(pin, (0, 255, 0), 0, False, ""),
