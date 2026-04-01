@@ -130,6 +130,7 @@ controller.configure(
                 "P": lambda pin: controller.static_color(pin, (255, 165, 0), 0, False, ""),
                 "S": lambda pin: controller.static_color(pin, (0, 255, 0), 0, False, ""),
                 "C": lambda pin: controller.static_color(pin, (255, 0, 0), 0, False, ""),
+                "H": lambda pin: controller.static_color(pin, (255, 255, 255), 0, False, ""),
             }),
         ),
         10: (
@@ -140,6 +141,7 @@ controller.configure(
                 "P": lambda pin: controller.static_color(pin, (255, 165, 0), 0, False, ""),
                 "S": lambda pin: controller.static_color(pin, (0, 255, 0), 0, False, ""),
                 "C": lambda pin: controller.static_color(pin, (255, 0, 0), 0, False, ""),
+                "H": lambda pin: controller.static_color(pin, (255, 255, 255), 0, False, ""),
             }),
         ),
     },
